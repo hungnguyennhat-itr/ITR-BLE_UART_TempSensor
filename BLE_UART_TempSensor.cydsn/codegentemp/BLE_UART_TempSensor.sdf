@@ -1,0 +1,22 @@
+(DELAYFILE
+ (SDFVERSION "IEEE 1497 4.0")
+ (DATE "2024-09-05T01:55:14Z")
+ (DESIGN "BLE_UART_TempSensor")
+ (VENDOR "Cypress Semiconductor")
+ (PROGRAM "PSoC Creator")
+ (VERSION " 4.4")
+ (DIVIDER .)
+ (TIMESCALE 1 ns)
+ (CELL
+  (CELLTYPE "BLE_UART_TempSensor")
+  (INSTANCE *)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT CY_CPUSS_SWJ_SWCLK_TCLK\(0\).fb CPUSS.swj_swclk_tclk (0.000:0.000:0.000))
+    (INTERCONNECT CY_CPUSS_SWJ_SWDIO_TMS\(0\).fb CPUSS.swj_swdio_tms (0.000:0.000:0.000))
+    (INTERCONNECT ClockBlock.periclk \\BLE\:bless_isr\\.clock (0.000:0.000:0.000))
+    (INTERCONNECT \\BLE\:cy_mxs40_ble\\.interrupt \\BLE\:bless_isr\\.interrupt (0.000:0.000:0.000))
+   )
+  )
+ )
+)
