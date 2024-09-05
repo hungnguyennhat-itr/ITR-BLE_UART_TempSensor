@@ -495,7 +495,7 @@
         <Data key="divider" value="4" />
         <Data key="Divider" value="4" />
         <Data key="ECO Frequency" value="32 MHz" />
-        <Data key="enabled" value="True" />
+        <Data key="enabled" value="False" />
         <Data key="Load cap (pF)" value="9.9" />
         <Data key="minus_tolerance" value="0" />
         <Data key="name" value="AltHF" />

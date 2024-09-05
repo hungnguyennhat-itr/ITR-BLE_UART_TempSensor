@@ -25,7 +25,6 @@
 #include "cyapicallbacks.h"
 #include "sysclk/cy_sysclk.h"
 #include "systick/cy_systick.h"
-#include "ble/cy_ble_clk.h"
 
 #define CY_NEED_CYCLOCKSTARTUPERROR 1
 #include "syspm/cy_syspm.h"
@@ -157,16 +156,6 @@ static void ClockInit(void)
 		CyClockStartupError(CYCLOCKSTART_WCO_ERROR);
 	}
 	Cy_SysClk_ClkLfSetSource(CY_SYSCLK_CLKLF_IN_WCO);
-	{
-		cy_stc_ble_bless_eco_cfg_params_t bleCfg =
-		{
-			.ecoXtalStartUpTime = (785 / 31.25),
-			.loadCap = ((9.9 - 7.5) / 0.075),
-			.ecoFreq = CY_BLE_BLESS_ECO_FREQ_32MHZ,
-			.ecoSysDiv = CY_BLE_SYS_ECO_CLK_DIV_4
-		};
-		Cy_BLE_EcoStart(&bleCfg);
-	}
 
 	/* Configure CPU clock dividers */
 	Cy_SysClk_ClkFastSetDivider(0u);

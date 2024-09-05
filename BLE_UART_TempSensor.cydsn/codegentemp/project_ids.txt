@@ -1,6 +1,6 @@
-C:\Users\fw29_\OneDrive - ITR VN\ITR-BLE_UART_TempSensor\BLE_UART_TempSensor.cydsn\BLE_UART_TempSensor.cyprj|782cf49c-5c93-4469-bedb-9f52ffc28d16
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|fd5eb033-1877-457b-b073-88150a73d1ea
-C:\Users\fw29_\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|4bfe2cab-c685-4091-b176-dea55e0830d2
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|114d1c3d-87fd-4935-859a-a710f29db39b
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|12606ddc-cc69-497a-805c-c537383886dc
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|f440f01c-d8c1-4cc2-9fae-8d1861ba4409
+C:\Users\fw29_\OneDrive - ITR VN\ITR-BLE_UART_TempSensor\BLE_UART_TempSensor.cydsn\BLE_UART_TempSensor.cyprj|2531d5b0-1abd-4d1b-af27-7c56359ffc4a
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|38250c77-3bbb-4f0b-83ed-526d14ef31fd
+C:\Users\fw29_\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|2e608dae-14c6-49f8-9057-818ecc361902
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|aec319aa-e36a-4249-a39c-27ba80b6d716
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|658741e4-0b32-4fa8-bdc4-2fafe243639e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|9686aa02-a501-45a1-ae0c-9fd728855c22

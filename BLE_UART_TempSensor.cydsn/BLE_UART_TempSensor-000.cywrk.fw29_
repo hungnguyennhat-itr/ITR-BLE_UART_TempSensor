@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="BLE_UART_TempSensor-000\BLE_UART_TempSensor\Generated_Source">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>BLE_UART_TempSensor-000</v>
 <v>BLE_UART_TempSensor-000\BLE_UART_TempSensor</v>
@@ -120,7 +120,6 @@
 <VisibleNodeIds>
 <v>BLE_UART_TempSensor-000</v>
 <v>BLE_UART_TempSensor-000\BLE_UART_TempSensor</v>
-<v>BLE_UART_TempSensor-000\BLE_UART_TempSensor\BLE_UART_TempSensor.gpdsc</v>
 <v>BLE_UART_TempSensor-000\BLE_UART_TempSensor\BLE_UART_TempSensor.rpt</v>
 <v>BLE_UART_TempSensor-000\BLE_UART_TempSensor\BLE_UART_TempSensor_timing.html</v>
 </VisibleNodeIds>
@@ -156,14 +155,19 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\TopDesign\TopDesign.cysch" />
+<name v=".\BLE_UART_TempSensor.cydwr" />
+<name v=".\main_cm0p.c" />
+<name v=".\main_cm4.c" />
+</OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
   Actipro Docking/MDI for WinForms
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1491, 566" SelectedTabbedMdiWindow="87a8e812-a360-4b9c-8b8c-00ada3709798"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="87a8e812-a360-4b9c-8b8c-00ada3709798" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1491, 566" SelectedTabbedMdiWindow="bb15fee9-4712-47b2-aaba-8fd0ad3fbcb0"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="87a8e812-a360-4b9c-8b8c-00ada3709798" /><DocumentWindow Key="C:\Users\fw29_\OneDrive - ITR VN\ITR-BLE_UART_TempSensor\BLE_UART_TempSensor.cydsn\TopDesign\TopDesign.cysch" Guid="57036796-7528-4618-85a2-834759955f44" /><DocumentWindow Key="C:\Users\fw29_\OneDrive - ITR VN\ITR-BLE_UART_TempSensor\BLE_UART_TempSensor.cydsn\BLE_UART_TempSensor.cydwr" Guid="bb15fee9-4712-47b2-aaba-8fd0ad3fbcb0" /><DocumentWindow Key="C:\Users\fw29_\OneDrive - ITR VN\ITR-BLE_UART_TempSensor\BLE_UART_TempSensor.cydsn\main_cm0p.c" Guid="70ccc28e-3fdc-4950-8344-b2fe162dc349" /><DocumentWindow Key="C:\Users\fw29_\OneDrive - ITR VN\ITR-BLE_UART_TempSensor\BLE_UART_TempSensor.cydsn\main_cm4.c" Guid="74098553-2612-455f-8a86-0276aaf2fe7c" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
