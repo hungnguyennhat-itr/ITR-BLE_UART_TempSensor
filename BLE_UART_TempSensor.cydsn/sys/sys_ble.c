@@ -93,7 +93,7 @@ static void sys_ble_event_handler(uint32_t event, void *event_param)
         Cy_BLE_GAPP_StartAdvertisement(0, CY_BLE_PERIPHERAL_CONFIGURATION_0_INDEX);
         break;
     }
-    case CY_BLE_EVT_GATTS_WRITE_CMD_REQ:
+    case CY_BLE_EVT_GATTS_WRITE_REQ:
     {
         cy_stc_ble_gatts_write_cmd_req_param_t* rcv_param = (cy_stc_ble_gatts_write_cmd_req_param_t *)event_param;
         if (rcv_param->handleValPair.attrHandle == CY_BLE_WIRELESS_UART_RECEIVE_CHAR_HANDLE)
