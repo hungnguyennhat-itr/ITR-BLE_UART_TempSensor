@@ -31,6 +31,10 @@ bool sys_ble_init(void)
     {
         return 0;
     }
+    while (Cy_BLE_GetState() != 2)
+    {
+        Cy_BLE_ProcessEvents();
+    }
     Cy_BLE_RegisterAppHostCallback(sys_ble_event_notify);
     return 1;
 }
