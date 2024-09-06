@@ -11,11 +11,15 @@
  */
 #include "sys/sys_ble.h"
 
+#define TEST_TRANSMIT (0u)
+#define TEST_RECEIVE  (1u)
+
 uint8_t data[20]       = { 0x24, 0x24, 0x24, 0x24, 0x24, 0x24, 0x24, 0x24, 0x24, 0x24,
                            0x24, 0x24, 0x24, 0x24, 0x24, 0x24, 0x24, 0x24, 0x24, 0x24 };
 bool    init_result    = 0;
 bool    receive_result = 0;
 uint8_t rcv_data;
+
 int     main(void)
 {
     __enable_irq(); /* Enable global interrupts. */
@@ -28,6 +32,11 @@ int     main(void)
         /* Place your application code here. */
         if (init_result)
         {
+            #if (TEST_TRANSMIT)
+            sys_ble_transmit(data, 20);
+            #endif
+            
+            #if (TEST_RECEIVE)
             receive_result = sys_ble_receive(&rcv_data);
             if (receive_result)
             {
@@ -38,6 +47,7 @@ int     main(void)
             {
                 Cy_GPIO_Write(LED_GREEN_0_PORT, LED_GREEN_0_NUM, 1);
             }
+            #endif
         }
     }
 }
