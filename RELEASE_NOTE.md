@@ -7,3 +7,8 @@
 
 ### Bugs
 - Receiving command from CySmart App render MCU unable to operate.
+
+## Version 1.0.1
+
+### New Features
+- Receipt of data over BLE to CySmart App with data length is 1 byte 
