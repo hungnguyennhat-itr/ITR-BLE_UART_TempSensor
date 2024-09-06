@@ -1,0 +1,6 @@
+C:\Users\fw29_\OneDrive - ITR VN\ITR-BLE_UART_TempSensor\BLE_UART_TempSensor.cydsn\BLE_UART_TempSensor.cyprj|5f3d514b-16f9-47ce-8e00-8b31216bb653
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|7b501a18-1263-4e0b-93af-7d1cd00ae8e4
+C:\Users\fw29_\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|e5e73333-4337-440a-bb35-0419bf70e1b8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|4b219de5-cbd7-40b9-91e0-12fa93577d38
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|2511d9cf-dcfe-473c-96f3-fbdf31035c04
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|dcd79450-5ada-4f19-af52-f407b011cfa4
