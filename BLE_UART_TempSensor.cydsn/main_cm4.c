@@ -8,8 +8,9 @@
  * WHICH IS THE PROPERTY OF your company.
  *
  * ========================================
-*/
+ */
 #include "project.h"
+
 
 int main(void)
 {
@@ -17,10 +18,12 @@ int main(void)
 
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
-    for(;;)
+    for (;;)
     {
         /* Place your application code here. */
+    
     }
 }
+
 
 /* [] END OF FILE */

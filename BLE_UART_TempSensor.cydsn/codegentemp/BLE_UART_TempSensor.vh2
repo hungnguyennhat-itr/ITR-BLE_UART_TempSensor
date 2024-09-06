@@ -1,0 +1,34 @@
+--
+--	Conversion of BLE_UART_TempSensor.v to vh2:
+--
+--	Cypress Semiconductor - WARP Version 6.3 IR 41
+--	Fri Sep 06 11:43:54 2024
+--
+
+USE cypress.cypress.all;
+USE cypress.rtlpkg.all;
+ENTITY top_RTL IS
+ATTRIBUTE part_name of top_RTL:TYPE IS "cpsoc3";
+END top_RTL;
+--------------------------------------------------------
+ARCHITECTURE R_T_L OF top_RTL IS
+SIGNAL Net_59 : bit;
+SIGNAL Net_58 : bit;
+SIGNAL Net_57 : bit;
+SIGNAL \BLE:Net_1\ : bit;
+BEGIN
+
+\BLE:cy_mxs40_ble\:cy_mxs40_ble_v1_0
+	GENERIC MAP(cy_registers=>"",
+		low_power=>'1')
+	PORT MAP(ext_pa_lna_chip_en_out=>Net_59,
+		ext_lna_rx_ctl_out=>Net_58,
+		ext_pa_tx_ctl_out=>Net_57,
+		interrupt=>\BLE:Net_1\);
+\BLE:bless_isr\:cy_mxs40_isr_v1_0
+	GENERIC MAP(cy_registers=>"",
+		deepsleep_required=>'1',
+		int_type=>"10")
+	PORT MAP(int_signal=>\BLE:Net_1\);
+
+END R_T_L;
