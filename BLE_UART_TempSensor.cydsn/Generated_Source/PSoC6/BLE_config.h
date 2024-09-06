@@ -55,7 +55,7 @@ extern "C" {
  * CY_BLE_CORE_CORTEX_M4  (0u) - The Host located on CM4.
  * CY_BLE_CORE_CORTEX_M0P (1u) - The Host located on CM0p.
  */
-#define CY_BLE_CONFIG_HOST_CORE                     (0u)
+#define CY_BLE_CONFIG_HOST_CORE                     (1u)
 
 /** 
  * The core for the Controller in HCI mode.
@@ -94,7 +94,7 @@ extern "C" {
  * CY_BLE_STACK_MODE_SINGLE_SOC (3u) - The Host and Controller with a software interface.
  * CY_BLE_STACK_MODE_DUAL_IPC   (2u) - The Host and Controller with an IPC interface.
  */
-#define CY_BLE_CONFIG_STACK_MODE                    (2u)
+#define CY_BLE_CONFIG_STACK_MODE                    (3u)
 
 #define CY_BLE_CONFIG_STACK_MODE_CONTR_UART         ((CY_BLE_MODE_HCI) || \
                                                     ((CY_BLE_CONFIG_MODE == CY_BLE_PROFILE) && \
@@ -259,6 +259,7 @@ extern "C" {
 
 #define CY_BLE_ADV_PKT_0_INDEX_FLAGS   (0x00u)
 #define CY_BLE_ADV_PKT_0_INDEX_LOCAL_NAME   (0x03u)
+#define CY_BLE_ADV_PKT_0_INDEX_SERVICE_DATA_WIRELESS_UART   (0x09u)
 #define CY_BLE_SCN_PKT_0_INDEX_SERVICE_UUID_128   (0x00u)
 #define CY_BLE_PERIPHERAL_CONFIGURATION_0_INDEX   (0x00u)
 
@@ -276,7 +277,7 @@ extern "C" {
 
 /** The GATT Maximum attribute length. */
 #define CY_BLE_CONFIG_GATT_DB_MAX_VALUE_LEN         (0x002Fu)
-#define CY_BLE_GATT_DB_INDEX_COUNT                  (0x0016u)
+#define CY_BLE_GATT_DB_INDEX_COUNT                  (0x0015u)
 
 /** The number of characteristics supporting the Reliable Write property. */
 #define CY_BLE_CONFIG_GATT_RELIABLE_CHAR_COUNT      (0x0000u)
@@ -307,7 +308,7 @@ extern "C" {
     #define CY_BLE_CONFIG_L2CAP_PSM_COUNT               (1u)
 #endif  /* CY_BLE_L2CAP_ENABLE != 0u */
 
-#define CY_BLE_CONFIG_GATT_DB_ATT_VAL_COUNT         (0x0Eu)
+#define CY_BLE_CONFIG_GATT_DB_ATT_VAL_COUNT         (0x0Du)
 
 /** Max Tx payload size. */
 #define CY_BLE_CONFIG_LL_MAX_TX_PAYLOAD_SIZE        (0x1Bu)
@@ -317,7 +318,7 @@ extern "C" {
 
 /** GATT Role. */
 #define CY_BLE_CONFIG_GATT_ROLE                     (0x01u)
-#define CY_BLE_CONFIG_GATT_DB_CCCD_COUNT            (0x04u)
+#define CY_BLE_CONFIG_GATT_DB_CCCD_COUNT            (0x02u)
 
 /** Max unique services in the project. */
 #define CY_BLE_MAX_SRVI                             (0x01u)
@@ -378,20 +379,18 @@ extern "C" {
  * Below are the indexes and handles of the defined Custom Services and 
  * their characteristics.
  */
-#define CY_BLE_TEMPERATURE_SERVICE_INDEX   (0x00u) /* Index of Temperature service in the cy_ble_customs array */
-#define CY_BLE_TEMPERATURE_OPERATION_CHAR_INDEX   (0x00u) /* Index of Operation characteristic */
-#define CY_BLE_TEMPERATURE_OPERATION_CHARACTERISTIC_USER_DESCRIPTION_DESC_INDEX   (0x00u) /* Index of Characteristic User Description descriptor */
-#define CY_BLE_TEMPERATURE_READINGS_CHAR_INDEX   (0x01u) /* Index of Readings characteristic */
-#define CY_BLE_TEMPERATURE_READINGS_CLIENT_CHARACTERISTIC_CONFIGURATION_DESC_INDEX   (0x00u) /* Index of Client Characteristic Configuration descriptor */
+#define CY_BLE_WIRELESS_UART_SERVICE_INDEX   (0x00u) /* Index of Wireless UART service in the cy_ble_customs array */
+#define CY_BLE_WIRELESS_UART_RECEIVE_CHAR_INDEX   (0x00u) /* Index of Receive characteristic */
+#define CY_BLE_WIRELESS_UART_RECEIVE_CHARACTERISTIC_USER_DESCRIPTION_DESC_INDEX   (0x00u) /* Index of Characteristic User Description descriptor */
+#define CY_BLE_WIRELESS_UART_TRANSMIT_CHAR_INDEX   (0x01u) /* Index of Transmit characteristic */
 
 
-#define CY_BLE_TEMPERATURE_SERVICE_HANDLE   (0x0010u) /* Handle of Temperature service */
-#define CY_BLE_TEMPERATURE_OPERATION_DECL_HANDLE   (0x0011u) /* Handle of Operation characteristic declaration */
-#define CY_BLE_TEMPERATURE_OPERATION_CHAR_HANDLE   (0x0012u) /* Handle of Operation characteristic */
-#define CY_BLE_TEMPERATURE_OPERATION_CHARACTERISTIC_USER_DESCRIPTION_DESC_HANDLE   (0x0013u) /* Handle of Characteristic User Description descriptor */
-#define CY_BLE_TEMPERATURE_READINGS_DECL_HANDLE   (0x0014u) /* Handle of Readings characteristic declaration */
-#define CY_BLE_TEMPERATURE_READINGS_CHAR_HANDLE   (0x0015u) /* Handle of Readings characteristic */
-#define CY_BLE_TEMPERATURE_READINGS_CLIENT_CHARACTERISTIC_CONFIGURATION_DESC_HANDLE   (0x0016u) /* Handle of Client Characteristic Configuration descriptor */
+#define CY_BLE_WIRELESS_UART_SERVICE_HANDLE   (0x0010u) /* Handle of Wireless UART service */
+#define CY_BLE_WIRELESS_UART_RECEIVE_DECL_HANDLE   (0x0011u) /* Handle of Receive characteristic declaration */
+#define CY_BLE_WIRELESS_UART_RECEIVE_CHAR_HANDLE   (0x0012u) /* Handle of Receive characteristic */
+#define CY_BLE_WIRELESS_UART_RECEIVE_CHARACTERISTIC_USER_DESCRIPTION_DESC_HANDLE   (0x0013u) /* Handle of Characteristic User Description descriptor */
+#define CY_BLE_WIRELESS_UART_TRANSMIT_DECL_HANDLE   (0x0014u) /* Handle of Transmit characteristic declaration */
+#define CY_BLE_WIRELESS_UART_TRANSMIT_CHAR_HANDLE   (0x0015u) /* Handle of Transmit characteristic */
 
 
 

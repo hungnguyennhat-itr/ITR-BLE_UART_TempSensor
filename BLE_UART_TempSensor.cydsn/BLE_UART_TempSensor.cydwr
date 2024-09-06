@@ -13,7 +13,7 @@
     <Group key="f6eb2166-f0a8-4b09-9fb8-327f2541096c/5e509665-5bd3-4115-bbc0-fb65a49def9a">
       <Group key="CortexM0p">
         <Data key="Assigned" value="True" />
-        <Data key="Priority" value="1" />
+        <Data key="Priority" value="3" />
         <Data key="Vector" value="3" />
       </Group>
       <Group key="CortexM4">

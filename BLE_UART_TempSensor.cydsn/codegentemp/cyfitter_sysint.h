@@ -21,11 +21,11 @@
 /* BLE_bless_isr */
 #define BLE_bless_isr__INTC_CORTEXM0P_ASSIGNED 1
 #define BLE_bless_isr__INTC_CORTEXM0P_MUX 3u
-#define BLE_bless_isr__INTC_CORTEXM0P_PRIORITY 1u
+#define BLE_bless_isr__INTC_CORTEXM0P_PRIORITY 3u
 #define BLE_bless_isr__INTC_NUMBER 24u
 #define BLE_bless_isr_INTC_CORTEXM0P_ASSIGNED 1
 #define BLE_bless_isr_INTC_CORTEXM0P_MUX 3u
-#define BLE_bless_isr_INTC_CORTEXM0P_PRIORITY 1u
+#define BLE_bless_isr_INTC_CORTEXM0P_PRIORITY 3u
 #define BLE_bless_isr_INTC_NUMBER 24u
 
 #endif /* INCLUDED_CYFITTER_SYSINT_H */

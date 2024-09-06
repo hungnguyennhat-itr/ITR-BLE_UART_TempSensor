@@ -1,6 +1,6 @@
-C:\Users\fw29_\OneDrive - ITR VN\ITR-BLE_UART_TempSensor\BLE_UART_TempSensor.cydsn\BLE_UART_TempSensor.cyprj|2531d5b0-1abd-4d1b-af27-7c56359ffc4a
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|38250c77-3bbb-4f0b-83ed-526d14ef31fd
-C:\Users\fw29_\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|2e608dae-14c6-49f8-9057-818ecc361902
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|aec319aa-e36a-4249-a39c-27ba80b6d716
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|658741e4-0b32-4fa8-bdc4-2fafe243639e
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|9686aa02-a501-45a1-ae0c-9fd728855c22
+C:\Users\fw29_\OneDrive - ITR VN\ITR-BLE_UART_TempSensor\BLE_UART_TempSensor.cydsn\BLE_UART_TempSensor.cyprj|ac3a9d10-09bc-4a3a-a39a-031e05e38231
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|2d547e8d-5e69-46f9-a648-28ec9d9dcfa2
+C:\Users\fw29_\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|430bbce4-3959-4dd2-9ec3-5dceaf15ce8e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|9535e1df-5195-4bf2-8ecf-4675963207c4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|07fd97ed-fa31-4bc0-a217-ae6e83d6c242
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|8b5ce270-e62d-4954-af28-44d08e70feb6

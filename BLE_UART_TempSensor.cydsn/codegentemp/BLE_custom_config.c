@@ -25,14 +25,14 @@
    The array index definitions are located in the BLE_custom.h file. */
 static const cy_stc_ble_customs_t cy_ble_customs[0x01u] = {
 
-    /* Temperature service */
+    /* Wireless UART service */
     {
-        0x0010u, /* Handle of the Temperature service */ 
+        0x0010u, /* Handle of the Wireless UART service */ 
         {
 
-            /* Operation characteristic */
+            /* Receive characteristic */
             {
-                0x0012u, /* Handle of the Operation characteristic */ 
+                0x0012u, /* Handle of the Receive characteristic */ 
                 
                 /* Array of Descriptors handles */
                 {
@@ -40,13 +40,13 @@ static const cy_stc_ble_customs_t cy_ble_customs[0x01u] = {
                 }, 
             },
 
-            /* Readings characteristic */
+            /* Transmit characteristic */
             {
-                0x0015u, /* Handle of the Readings characteristic */ 
+                0x0015u, /* Handle of the Transmit characteristic */ 
                 
                 /* Array of Descriptors handles */
                 {
-                    0x0016u, /* Handle of the Client Characteristic Configuration descriptor */ 
+                    CY_BLE_GATT_INVALID_ATTR_HANDLE_VALUE, 
                 }, 
             },
         }, 

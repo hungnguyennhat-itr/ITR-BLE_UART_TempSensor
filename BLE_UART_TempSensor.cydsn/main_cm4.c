@@ -43,13 +43,14 @@ int main(void)
         service_handle.attrHandle = CY_BLE_TEMPERATURE_READINGS_CHAR_HANDLE;
         service_handle.value = service_data;
         Cy_BLE_GATTS_WriteAttributeValueLocal(&service_handle);
-        Cy_SysPm_DeepSleep(CY_SYSPM_WAIT_FOR_INTERRUPT);
+        CyDelay(10000);
+        // Cy_SysPm_DeepSleep(CY_SYSPM_WAIT_FOR_INTERRUPT);
     }
 }
 
 void ble_apphost_callback(void)
 {
-    Cy_BLE_ProcessEvents(void);
+    Cy_BLE_ProcessEvents();
 }
 
 void genericstack_callback(uint32_t event, void *event_param)

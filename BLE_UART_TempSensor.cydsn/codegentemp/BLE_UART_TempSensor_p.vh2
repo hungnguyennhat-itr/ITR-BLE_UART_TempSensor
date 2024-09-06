@@ -1,5 +1,5 @@
 -- Project:   BLE_UART_TempSensor
--- Generated: 09/05/2024 11:54:24
+-- Generated: 09/06/2024 09:02:27
 -- PSoC Creator  4.4
 
 ENTITY BLE_UART_TempSensor IS
