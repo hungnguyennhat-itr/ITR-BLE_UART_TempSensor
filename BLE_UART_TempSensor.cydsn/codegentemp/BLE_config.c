@@ -210,7 +210,7 @@ static const cy_stc_ble_gaps_t cy_ble_gaps =
     0x0009u,    /* Handle of the Central Address Resolution characteristic */
     0x000Bu,    /* Handle of the Resolvable Private Address Only characteristic */
 };
-static uint8_t cy_ble_attValues[0x45u] = {
+static uint8_t cy_ble_attValues[0x58u] = {
     /* Device Name */
     (uint8_t)'U', (uint8_t)'A', (uint8_t)'R', (uint8_t)'T', 
 
@@ -241,7 +241,8 @@ static uint8_t cy_ble_attValues[0x45u] = {
 (uint8_t)'e', (uint8_t)'a', (uint8_t)'d', (uint8_t)'i', (uint8_t)'n', (uint8_t)'g', (uint8_t)'s', 
 
     /* Transmit */
-    0x00u, 
+    0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u, 0x00u,
+0x00u, 0x00u, 0x00u, 
 
 };
 #if(CY_BLE_GATT_DB_CCCD_COUNT != 0u)
@@ -270,7 +271,7 @@ static cy_stc_ble_gatts_att_gen_val_len_t cy_ble_attValuesLen[0x0Du] = {
     { 0x0001u, (void *)&cy_ble_attValues[20] }, /* Receive */
     { 0x002Fu, (void *)&cy_ble_attValues[21] }, /* Characteristic User Description */
     { 0x0010u, (void *)&cy_ble_attUuid128[2] }, /* Transmit UUID */
-    { 0x0001u, (void *)&cy_ble_attValues[68] }, /* Transmit */
+    { 0x0014u, (void *)&cy_ble_attValues[68] }, /* Transmit */
 };
 
 static const cy_stc_ble_gatts_db_t cy_ble_gattDB[0x15u] = {
@@ -294,7 +295,7 @@ static const cy_stc_ble_gatts_db_t cy_ble_gattDB[0x15u] = {
     { 0x0012u, 0x561Cu /* Receive                             */, 0x09080100u /* wr    */, 0x0013u, {{0x0001u, (void *)&cy_ble_attValuesLen[9]}} },
     { 0x0013u, 0x2901u /* Characteristic User Description     */, 0x01020001u /* rd    */, 0x0013u, {{0x002Fu, (void *)&cy_ble_attValuesLen[10]}} },
     { 0x0014u, 0x2803u /* Characteristic                      */, 0x00020001u /* rd    */, 0x0015u, {{0x0010u, (void *)&cy_ble_attValuesLen[11]}} },
-    { 0x0015u, 0xAD75u /* Transmit                            */, 0x09020001u /* rd    */, 0x0015u, {{0x0001u, (void *)&cy_ble_attValuesLen[12]}} },
+    { 0x0015u, 0xAD75u /* Transmit                            */, 0x09020001u /* rd    */, 0x0015u, {{0x0014u, (void *)&cy_ble_attValuesLen[12]}} },
 };
 
 #endif /* (CY_BLE_GATT_ROLE_SERVER) */

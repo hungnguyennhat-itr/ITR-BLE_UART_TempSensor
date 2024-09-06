@@ -1,5 +1,5 @@
 -- Project:   C:\Users\fw29_\OneDrive - ITR VN\ITR-BLE_UART_TempSensor\BLE_UART_TempSensor.cydsn\BLE_UART_TempSensor.cyprj
--- Generated: 09/06/2024 10:28:14
+-- Generated: 09/06/2024 11:44:05
 -- PSoC Creator  4.4
 
 ENTITY BLE_UART_TempSensor IS
