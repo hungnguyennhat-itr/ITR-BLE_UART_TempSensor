@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2024-09-06T02:02:32Z")
+ (DATE "2024-09-06T03:28:14Z")
  (DESIGN "BLE_UART_TempSensor")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
